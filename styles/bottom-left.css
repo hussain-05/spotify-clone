@@ -1,0 +1,156 @@
+.bottom-left{
+  background-color: rgb(15, 15, 15);
+  padding: 20px;
+  border-radius: 10px;
+  width: 375px;
+  margin-top: 8px;
+  height: 950px;
+  position: fixed;
+  top: 121px;
+}
+
+.lib-img{
+  width: 25px;
+}
+
+.library{
+  display: flex;
+  align-items: center;
+}
+
+.library span{
+  color: white;
+  font-weight: 500;
+  margin-left: 20px;
+  font-size: 16px;
+  transition: color 0.15s;
+}
+
+.add img{
+  width: 18px;
+  padding: 5px;
+  border-radius: 100%;
+  transition: background-color 0.15s;
+}
+
+.add{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bl-top{
+  display: flex;
+  gap: 150px;
+  margin-left: 5px;
+}
+
+.side-playlist{
+  display: flex;
+  align-items: center;
+  margin-top: 9px;
+  border-radius: 5px;
+  padding: 5px;
+  transition: background-color 0.15s;
+}
+
+.playlist-img img,
+.artist-img img{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.artist-img img{
+  border-radius: 25px;
+}
+
+.playlist-info{
+  margin-left: 10px;
+}
+
+.playlist-title{
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.playlist-stats{
+  font-size: 13px;
+  color: rgb(163, 163, 163);
+}
+
+.filter{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.filter div{
+  background-color: rgb(39, 39, 39);
+  padding: 7px 11px 7px 11px;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+.library:hover,
+.filter div:hover,
+.add img:hover {
+  cursor: pointer;
+}
+
+.library span:hover{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.add img:hover{
+  background-color: rgb(33, 33, 33);
+}
+
+.add img:active{
+  background-color: black;
+}
+
+.filter div:hover{
+  background-color: rgb(51, 51, 51);
+}
+
+.filter div:active{
+  background-color: rgb(39, 39, 39);
+}
+
+.side-playlist:hover{
+  cursor: pointer;
+  background-color: rgb(28, 28, 28);
+}
+
+.side-playlist:active{
+  background-color: black;
+}
+
+.right-top{
+  display: flex;
+  align-items: center;
+  gap: 210px;
+}
+
+.right-top span{
+  font-size: 18px;
+}
+
+.right-top img{
+  height: 20px;
+  transition: background-color 0.15s;
+  padding: 7px;
+  border-radius: 100%;
+}
+
+.right-top img:hover{
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
+}
+
+.right-top img:active{
+  background-color: none;
+}

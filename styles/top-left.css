@@ -1,0 +1,41 @@
+.row1 div,
+.row2 div{
+  color: white;
+  font-weight: 500;
+  margin-left: 20px;
+  font-size: 16px;
+  transition: color 0.15s;
+}
+
+.top-left img{
+  width: 25px;
+}
+
+.top-left{
+  background-color: rgb(15, 15, 15);
+  padding: 20px;
+  border-radius: 10px;
+  width: 375px;
+  position: fixed;
+}
+
+.row1, .row2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.row1:hover,
+.row2:hover{
+  cursor: pointer;
+}
+
+.row2 {
+  margin-top: 25px;
+}
+
+.row1 div:hover,
+.row2 div:hover{
+  color: rgba(255, 255, 255, 0.6);
+}
+

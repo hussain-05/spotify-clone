@@ -1,0 +1,130 @@
+.right{
+  background-color: rgb(15, 15, 15);
+  padding: 20px;
+  border-radius: 10px;
+  width: 370px;
+  position: absolute;
+  top: 0;
+  left: 1571px;
+  height: 1071px;
+}
+
+.right-top{
+  display: flex;
+  align-items: center;
+  gap: 210px;
+}
+
+.right-top span{
+  font-size: 18px;
+}
+
+.right-top img{
+  height: 20px;
+  transition: background-color 0.15s;
+  padding: 7px;
+  border-radius: 100%;
+}
+
+.right-top img:hover{
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
+}
+
+.right-top img:active{
+  background-color: rgb(15, 15, 15);
+}
+
+.right-album-art{
+  height: 370px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.right-song-bar{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 130px
+}
+
+.right-song-buttons{
+  display: flex;
+  gap: 9px
+}
+
+.right-song-buttons img{
+  height: 20px;
+}
+
+.song-title{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.song-author{
+  color: rgb(163, 163, 163);
+  margin-top: 12px;
+}
+
+.right-song-buttons img:hover{
+  cursor: pointer;
+}
+
+.author-info-img{
+  height: 370px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.author-info-container{
+  position: relative;
+}
+
+.author-info{
+  background-color: rgb(28, 28, 28);
+  padding: 20px;
+  border-radius: 0px 0px 8px 8px;
+  margin-top: -33px;
+  z-index: 500;
+  position: absolute;
+}
+
+.author-name{
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.author-stats-bar{
+  margin-top: 15px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.author-stats{
+  color: rgb(163, 163, 163);
+}
+
+.follow-button{
+  color: rgb(163, 163, 163);
+  font-size: 15px;
+  border-style: solid;
+  border-color: rgb(163, 163, 163);
+  border-radius: 20px;
+  padding: 6px 12px 6px 12px;
+  transition: color 0.15s;
+  transition: border-color 0.15s;
+}
+
+.author-history{
+  font-size: 14px;
+  margin-top: 15px;
+  color: rgb(163, 163, 163);
+}
+
+.follow-button:hover{
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
